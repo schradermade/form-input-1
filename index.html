@@ -11,7 +11,7 @@
 
 <body>
   <div class="container">
-    <h2>Tell Us Your Favorite Stuff!</h2>
+    <h1 class="jumbotron">Tell Us About Your Favorite Stuff!</h1>
     <form>
       <!--Favorite Food-->
       <select class="form-control" id="food">
@@ -20,34 +20,43 @@
         <option>Tacos</option>
         <option>Pizza</option>
       </select>
+      <br>
 
       <!--Favorite Season-->
       <div class="container">
         <div class="radio">
           <label>
-            <input type="radio" name="flavor" value="chocolate" checked>
-            Chocolate
+            <input type="radio" name="season" value="Spring" checked>
+            Spring
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="flavor" value="vanilla">
-            Vanilla
+            <input type="radio" name="season" value="Summer">
+            Summer
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="flavor" value="cookiesandcream">
-            Cookies & Cream
+            <input type="radio" name="season" value="Fall">
+            Fall
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="season" value="Winter">
+            Winter
           </label>
         </div>
       </div>
-      
+      <br>
+
       <!--Favorite Holiday-->
       <div class="form-group">
-        <label for="born">Date of birth:</label>
-        <input id="born" class="form-control" type="date">
+        <label for="born">Tell us your favorite holiday:</label>
+        <input id="holiday" class="form-control" type="date">
       </div>
+      <br>
 
       <!--Favorite Color-->
       <div class="form-group">
